@@ -1,0 +1,56 @@
+{
+  "vertical": "restaurant",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Jollof Rice",
+      "aliases": ["jollof", "jollof rice"],
+      "price_naira": 2500,
+      "variants": ["with chicken", "with beef", "plain"],
+      "available": true,
+      "allergens": []
+    },
+    {
+      "id": "P002",
+      "name": "Fried Rice",
+      "aliases": ["fried rice"],
+      "price_naira": 2500,
+      "variants": ["with chicken", "with beef"],
+      "available": true,
+      "allergens": []
+    },
+    {
+      "id": "P003",
+      "name": "Chicken Suya",
+      "aliases": ["suya", "chicken suya"],
+      "price_naira": 3000,
+      "variants": [],
+      "available": true,
+      "allergens": ["peanuts"]
+    },
+    {
+      "id": "P004",
+      "name": "Amala",
+      "aliases": ["amala"],
+      "price_naira": 2000,
+      "variants": ["with ewedu", "with gbegiri"],
+      "available": true,
+      "allergens": []
+    },
+    {
+      "id": "P005",
+      "name": "Chapman",
+      "aliases": ["chapman"],
+      "price_naira": 1500,
+      "variants": [],
+      "available": true,
+      "allergens": []
+    }
+  ],
+  "delivery_zones": [
+    {"location": "Lekki", "fee_naira": 1500},
+    {"location": "Ikeja", "fee_naira": 2000},
+    {"location": "Yaba", "fee_naira": 1000},
+    {"location": "Surulere", "fee_naira": 1200}
+  ]
+}

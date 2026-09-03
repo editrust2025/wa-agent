@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+data/conversation_log.csv
+data/conversation_state.json
